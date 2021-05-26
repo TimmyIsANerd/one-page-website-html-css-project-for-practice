@@ -63,9 +63,10 @@ p {
 	background-color: crimson;
 }
 .brand h1 {
-	font-size: 3rem;
+	font-size: 1.5rem;
 	text-transform: uppercase;
 	color: white;
+	text-align:center;
 }
 .brand h1 span {
 	color: crimson;
@@ -200,7 +201,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
+	background-image: url(./img/hero-bg-1.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -226,7 +227,7 @@ p {
 #hero h1 {
 	display: block;
 	width: fit-content;
-	font-size: 4rem;
+	font-size: 3.5rem;
 	position: relative;
 	color: transparent;
 	animation: text_reveal 0.5s ease forwards;
@@ -505,7 +506,7 @@ p {
 #footer h2 {
 	color: white;
 	font-weight: 500;
-	font-size: 1.8rem;
+	font-size: 1rem;
 	letter-spacing: 0.1rem;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -529,6 +530,7 @@ p {
 #footer p {
 	color: white;
 	font-size: 1.3rem;
+	text-align:center;
 }
 /* End Footer */
 
